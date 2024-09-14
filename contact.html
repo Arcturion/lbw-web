@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kontak Kami - Stasiun Meteorologi Yuvai Semaring</title>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <style>
+        .hero {
+            height: 30vh;
+            min-height: 300px;
+            margin-bottom: 4rem;
+        }
+        .hero-content {
+            padding: 2rem 0;
+        }
+        nav ul {
+            justify-content: center;
+        }
+        nav ul li {
+            margin: 0 1rem;
+        }
+        .hero h1 {
+            margin-top: 4rem;
+            font-size: 2.5rem;
+        }
+        .hero p {
+            font-size: 1.25rem;
+        }
+        .contact-section {
+            padding: 4rem 0;
+        }
+        .contact-container {
+            display: flex;
+            justify-content: space-between;
+            gap: 2rem;
+        }
+        .contact-info, .contact-form {
+            flex: 1;
+        }
+        .contact-info h2, .contact-form h2 {
+            margin-bottom: 1rem;
+        }
+        .contact-info p {
+            margin-bottom: 1rem;
+        }
+        .contact-form form {
+            display: flex;
+            flex-direction: column;
+        }
+        .contact-form input, .contact-form textarea {
+            margin-bottom: 1rem;
+            padding: 0.5rem;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+        }
+        .contact-form button {
+            align-self: flex-start;
+            padding: 0.5rem 1rem;
+            background-color: #4a90e2;
+            color: white;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+        .contact-form button:hover {
+            background-color: #3a7bc8;
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <div class="container">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="index.html#about">Tentang Kami</a></li>
+                <li><a href="prakiraan.html">Prakiraan Cuaca</a></li>
+                <li><a href="index.html#research">Berita</a></li>
+                <li><a href="contact.html">Kontak</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <header class="hero">
+        <div class="hero-content">
+            <h1>Kontak Kami</h1>
+            <p>Hubungi kami untuk informasi lebih lanjut</p>
+        </div>
+    </header>
+
+    <section class="contact-section">
+        <div class="container">
+            <div class="contact-container">
+                <div class="contact-info">
+                    <h2>Informasi Kontak</h2>
+                    <p><strong>Alamat:</strong> Jl. Perhubungan No. 123, Krayan Induk, Nunukan, Kalimantan Utara</p>
+                    <p><strong>Telepon:</strong> +62 811 530 440</p>
+                    <p><strong>Email:</strong> stamet.longbawan@gmail.com</p>
+                    <p><strong>Jam Operasional:</strong> Setiap hari, 6.30 - 18.30 WITA</p>
+                </div>
+                <div class="contact-form">
+                    <h2>Kirim Pesan</h2>
+                    <form>
+                        <input type="text" name="name" placeholder="Nama Anda" required>
+                        <input type="email" name="email" placeholder="Email Anda" required>
+                        <input type="text" name="subject" placeholder="Subjek" required>
+                        <textarea name="message" placeholder="Pesan Anda" rows="5" required></textarea>
+                        <button type="submit">Kirim Pesan</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <p>&copy; 2024 Badan Meteorologi Klimatologi dan Geofisika. All rights reserved.</p>
+                <div class="social-icons">
+                    <a href="https://www.facebook.com/BmkgKrayan/"><i class="fab fa-facebook"></i></a>
+                    <a href="https://www.instagram.com/bmkgkrayan/"><i class="fab fa-instagram"></i></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/js/all.min.js"></script>
+</body>
+</html>
